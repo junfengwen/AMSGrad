@@ -1,6 +1,15 @@
 # AMSGrad
 
-This is a Tensorflow implementation of the AMSGrad algorithm in the ICLR 2018 submission "On the Convergence of Adam and Beyond".
+This is a Tensorflow implementation of the AMSGrad algorithm in the ICLR 2018 submission "On the Convergence of Adam and Beyond". Have fun.
+
+## Usage
+```python
+import optimizers
+
+# just like tf.train.AdamOptimizer(learning_rate=0.01), you can specify
+opt = optimizers.AMSGrad(learning_rate=0.01)
+# and you are ready to go
+```
 
 ## Test Environment / Prerequisites
 - Python 2.7
